@@ -5,9 +5,11 @@ body{
     }
 
 #apresentacao {
-    background-image: url(imagens/logoIronThrone.jpg);
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url(imagens/logoIronThrone.jpg);
     background-position: left;
-    background-size: 40%;
+    background-size: 55%;
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -36,7 +38,9 @@ p{
   }
   
 #infoWW {
-    background-image: url(imagens/whiteWalkerDragon.jpg);
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+        url(imagens/whiteWalkerDragon.jpg);
     background-position: left;
     background-size: 40%;
     background-repeat: no-repeat;
