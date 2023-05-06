@@ -1,53 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Game of Thrones, GOT, Stark, Targaryen, Lannister, Baratheon">
+    <meta name="description" content"Game of Thrones é uma série de TV que se passa em um mundo de fantasia medieval,
+        onde sete famílias nobres disputam o controle do Trono de Ferro dos Sete Reinos.">
     <link rel="shortcut icon" href="imagens/logoGOT.jpg">
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@700&family=UnifrakturCook:wght@700&display=swap"
+        rel="stylesheet">
     <title>Game Of Thrones</title>
     <!--https://marcostier.github.io/Atividade-Projeto-Final/-->
 </head>
+
 <body>
     <background color="black">
-        <header>
+        <header id="simboloGOT">
             <img src="imagens/logoGOT.jpg" height="40">
         </header>
-        <br>
-        <main>
-            <h1 align="center">The Winter is Coming!</h1>
-            <p align="left">Game of Thrones é uma série de TV que se passa em um mundo de fantasia medieval, onde sete
-                famílias nobres disputam o controle do Trono de Ferro dos Sete Reinos.</p>
-            <p>A Trama é marcada por intriga política, lutas pelo poder, relações complexas entre personagens e muita
+        <main id="apresentacao">
+            <h1 align="center" id="mainTitle">The Winter is Coming!</h1>
+            <p align="left" id="introText">Game of Thrones é uma série de TV que se passa em um mundo de fantasia medieval, onde sete
+                famílias nobres disputam o controle do Trono de Ferro dos Sete Reinos.            
+                A Trama é marcada por intriga política, lutas pelo poder, relações complexas entre personagens e muita
                 ação.</p>
-            <img src="imagens/logoIronThrone.jpg" alt="Trono de ferro" height="393" width="262" align="right">
         </main>
+
         <nav>
             <p>Algumas das principais famílias da série incluem:</p>
-            <ul>
-                <li><a href="casaStark.html"><img src="imagens/logoStark.png" height="80"></a><span>A Casa Stark, que
-                        governa o Norte e é conhecida por seu lema “O inverno está chegando”. Eles são liderados por
-                        Eddard Stark e seus filhos, Robb, Sansa, Arya, Bran e Rickon.</span> </li>
-                <li><a href="casaTargaryen.html"><img src="imagens/logoTargaryen.png" height="80"></a><span>A Casa
-                        Targaryen, que governa os Sete Reinos antes de ser deposta em uma rebelião liderada por Robert
-                        Baratheon. Eles são liderados por Daenerys Targaryen, uma princesa exilada que busca recuperar o
-                        trono que lhe foi tirado.</span></li>
-                <li><a href="casaLannister.html"><img src="imagens/logoLannister.png" height="80"></a><span> Casa
-                        Lannister, que é a família mais rica e poderosa dos Sete Reinos. Eles são liderados por Tywin
-                        Lannister e seus filhos, Cersei, Jaime e Tyrion.</span></li>
-                <li><a href="casaBaratheon.html"><img src="imagens/logoBaratheon.webp" height="80"></a><span>A Casa
-                        Baratheon, que ganhou o Trono de Ferro após a rebelião que depôs os Targaryen. Eles são
-                        liderados por Robert Baratheon e, mais tarde, por seu irmão mais novo, Stannis.</span></li>
-            </ul>
+            <table id="casas">
+                <tr>
+                    <td><a href="casaStark.html"><img src="imagens/logoStark.png"
+                                alt="simbolo da Casa Stark, a cabeça de um lobo cinza" height="150"></a></td>
+                    <td><span>A Casa Stark, que governa o Norte e é conhecida por seu lema “O inverno está chegando”.
+                            Eles são liderados
+                            por
+                            Eddard Stark e seus filhos, Robb, Sansa, Arya, Bran e Rickon.</span></td>
+                </tr>
+                <tr>
+                    <td><a href="casaTargaryen.html"><img src="imagens/logoTargaryen.png"
+                                alt="simbolo da Casa Stark, a cabeça de um lobo cinza" height="200"></a></td>
+                    <td><span>A Casa
+                            Targaryen, que governa os Sete Reinos antes de ser deposta em uma rebelião liderada por
+                            Robert
+                            Baratheon. Eles são liderados por Daenerys Targaryen, uma princesa exilada que busca
+                            recuperar o
+                            trono que lhe foi tirado.</span></td>
+                </tr>
+                <tr>
+                    <td><a href="casaLannister.html"><img src="imagens/logoLannister.png"
+                                alt="simbolo da Casa Stark, a cabeça de um lobo cinza" height="200"></a></td>
+                    <td><span>A Casa
+                            Lannister, que é a família mais rica e poderosa dos Sete Reinos. Eles são liderados por
+                            Tywin
+                            Lannister e seus filhos, Cersei, Jaime e Tyrion.</span></td>
+                </tr>
+                <tr>
+                    <td><a href="casaBaratheon.html"><img src="imagens/logoBaratheon.webp"
+                                alt="simbolo da Casa Stark, a cabeça de um lobo cinza" height="200"></a></td>
+                    <td><span>A Casa
+                            Baratheon, que ganhou o Trono de Ferro após a rebelião que depôs os Targaryen. Eles são
+                            liderados por Robert Baratheon e, mais tarde, por seu irmão mais novo, Stannis.</span></td>
+                </tr>
+            </table>
+
         </nav>
         <br>
-        <section>
-            <span>A série também apresenta os White Walkers, uma raça de criaturas sobrenaturais que vivem além da
+        <section id="infoWW">
+            <span><p>A série também apresenta os White Walkers, uma raça de criaturas sobrenaturais que vivem além da
                 Muralha, uma gigantesca barreira de gelo que protege o Norte dos Sete Reinos. Os White Walkers são um
                 grande perigo para os personagens da série, já que eles representam uma ameaça ao equilíbrio de poder na
-                Região.</span>
-            <img src="imagens/whiteWalkerDragon.jpg" align="right">
+                Região.</p></span>
         </section>
 </body>
+
 </html>
