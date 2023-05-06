@@ -21,6 +21,7 @@ body{
 #mainTitle{
     font-size: 120px;
     font-family: 'UnifrakturCook', cursive;
+    text-align: center;
 }
 
 p{
