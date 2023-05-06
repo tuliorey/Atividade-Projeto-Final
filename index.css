@@ -22,15 +22,18 @@ body{
     font-size: 120px;
     font-family: 'UnifrakturCook', cursive;
 }
+
 p{
     font-size: 40px;
 }
+
 #casas {
     list-style-type: none;
     margin: 0;
     padding: 0;
     font-size: 40px;
   }
+  
 #infoWW {
     background-image: url(imagens/whiteWalkerDragon.jpg);
     background-position: left;
