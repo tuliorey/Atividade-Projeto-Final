@@ -173,17 +173,15 @@
 <br>
 	<table id="menu">
         <td><p id="textoMenu">Outras casas</p></td>
-        <td><a href="index.html"><img src="/imagens/logoStark.png" class="highlight" onmouseover="mudarTexto('Stark')" height="200px"></a></td>
-		<td><img src="/imagens/logoTargaryen.png" class="fade" onmouseover="mudarTexto('Targaryen')" height="200px"></td>
+        <td><a href="index.html"><img src="imagens/logoStark.png" class="highlight" onmouseover="mudarTexto('Stark')" height="200px"></a></td>
+		<td><img src="imagens/logoTargaryen.png" class="fade" onmouseover="mudarTexto('Targaryen')" height="200px"></td>
         <td><img src="imagens/logoLannister.png" class="fade" onmouseover="mudarTexto('Lannister')" height="200px"></td>
     </table>
 
 	<script>
 		function mudarTexto(texto) {
-			// Atualiza o texto dinâmico
 			document.getElementById("textoMenu").innerHTML = texto;
 			
-			// Destaca a imagem que o mouse está sobre
 			var imagens = document.getElementsByTagName("img");
 			for (var i = 0; i < imagens.length; i++) {
 				if (imagens[i].classList.contains("highlight")) {
