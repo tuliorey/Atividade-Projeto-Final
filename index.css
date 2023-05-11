@@ -8,7 +8,7 @@ body{
     background:
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
     url(imagens/logoIronThrone.jpg);
-    background-size: 55%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -16,7 +16,7 @@ body{
 #introText {
     width:400px;
     padding:10px;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #mainTitle{
@@ -26,22 +26,26 @@ body{
 }
 
 p{
-    font-size: 40px;
+    font-size: 100px;
 }
 
 #casas {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: 40px;
+    font-size: 20px;
   }
-  
+p{ 
+    font-size: 20px;
+    width:400px;
+    padding:10px;
+}
 #infoWW {
     background:
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
         url(imagens/whiteWalkerDragon.jpg);
     background-position: left;
-    background-size: 40%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: right;
 }
