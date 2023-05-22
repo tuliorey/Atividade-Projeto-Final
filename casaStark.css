@@ -4,25 +4,25 @@ background-size: 100%;
 background-attachment: scroll;
  }
     
-p{
+p{      display: flex;
         font-family: 'Luxurious Roman', cursive;
         color:#FFFF;
 }
       
-    .linha img {
+        .linha img {
         float: left;
     }
       
-    .linha p {
+        .linha p {
         text-align: center;
         margin: 0;
         color: white;
         background-color: black;
         font-family: 'UnifrakturCook', cursive;
         font-size: 50px;
-    }
+        }   
     
-#titulo img {
+#titulo img {display: flex;
         margin-top: 20px;
         margin-right: 20px;
         margin-left: 0;
@@ -30,7 +30,7 @@ p{
 }
     
 #titulo p {
-        text-align: ;
+        text-align: 12px;
         margin-right: 200;
         margin-bottom: 200;
         margin-top: 100;
@@ -39,7 +39,7 @@ p{
         font-size: 60px;
         }
     
- #apresentacao img {
+#apresentacao img {
         float: right;
         margin-left: 40px;
         margin-right: 0;
