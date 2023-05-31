@@ -4,7 +4,7 @@ background-size: 100%;
 background-attachment: scroll;
  }
     
-p{      display: flex;
+p{      display: grid;
         font-family: 'Luxurious Roman', cursive;
         color:#FFFF;
 }
