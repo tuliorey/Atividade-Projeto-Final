@@ -16,6 +16,8 @@
         rel="stylesheet">
     <title>Game Of Thrones - Casa Baratheon</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="casaBaratheon.js"></script>
+    <script src="snowstorm.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -25,17 +27,18 @@
 
     <header>
         <div id="homeButton" class="position-absolute">
-            <a href="index.html"> <img src="imagens/logoGOT.jpg" height="75px" alt="home"></a>
+            <a href="index.html"><img src="imagens/logoGOT.jpg" height="75px" alt="home"></a>
 
         </div>
-        <div id="GOTslogan" class="card-text text-center"> The Winter is Coming!</div>
+        <div id="GOTslogan" class="card-text text-center"> The <span onclick="winter()">Winter</span> is Coming!</div>
     </header>
 
     <section>
         <div id="titulo" class="container">
             <div id="mainTitle" class="position-center">Casa Baratheon</div>
-            <div id="brasao"><img src="imagens/logoBaratheon.webp"
-                    alt="Brasão da Casa Baratheon, fundo amarelo com Veado" class="img-fluid" style="max-height: 130px;"></div>
+            <div id="brasao">
+                <img src="imagens/logoBaratheon.webp" alt="Brasão da Casa Baratheon, fundo amarelo com Veado" class="img-fluid" style="max-height: 130px;">
+              </div>              
         </div>
     </section>
 
@@ -176,24 +179,6 @@
                 </a>
             </div>
         </div>        
-        
-        <script>
-            function mudarTexto(texto) {
-                document.getElementById("textoMenu").innerHTML = texto;
-        
-                var imagens = document.getElementsByTagName("img");
-                for (var i = 0; i < imagens.length; i++) {
-                    if (imagens[i].classList.contains("highlight")) {
-                        imagens[i].classList.remove("highlight");
-                        imagens[i].classList.add("custom-fade");
-                    }
-                    if (imagens[i].src === event.target.src) {
-                        imagens[i].classList.remove("custom-fade");
-                        imagens[i].classList.add("highlight");
-                    }
-                }
-            }
-        </script>       
     </nav>
 </body>
 

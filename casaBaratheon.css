@@ -123,3 +123,19 @@ section {
     font-family: 'Luxurious Roman', cursive;
     color:#FFFF;
 }
+
+@keyframes queda {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(100vh);
+    }
+  }
+  
+  .queda-Baratheon {
+    animation: queda 3s linear forwards;
+  }
+  
