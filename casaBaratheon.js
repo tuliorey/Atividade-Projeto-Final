@@ -34,7 +34,7 @@ function mudarTexto(texto) {
 }
 
 var urls = [
-  { texto: "Robert Baratheon", urlId: '7', elementId: 'robertBaratheon' },
+  { texto: "Robert Baratheon", urlId: '34', elementId: 'robertBaratheon' },
   { texto: "Stannis Baratheon", urlId: '18', elementId: 'stannisBaratheon' }
 ];
 
