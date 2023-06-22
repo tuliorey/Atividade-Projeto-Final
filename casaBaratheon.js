@@ -36,7 +36,7 @@ function mudarTexto(texto) {
     }
 }
 
-//consumo de API
+//consumo de API para inserir fotos de Stannis e Robert
 var urls = [
   { texto: "Robert Baratheon", urlId: '34', elementId: 'robertBaratheon' },
   { texto: "Stannis Baratheon", urlId: '18', elementId: 'stannisBaratheon' }
