@@ -1,3 +1,4 @@
+//Easter egg queda do brasão
 function quedaBaratheon() {
     var brasaoDiv = document.getElementById("brasao");
     brasaoDiv.classList.add("queda-Baratheon");
@@ -11,12 +12,14 @@ function quedaBaratheon() {
     var brasaoElement = document.getElementById("brasao");
     brasaoElement.addEventListener("click", quedaBaratheon);
   });
-  
+
+//Easter egg neve
 function winter() {
     snowStorm.toggleSnow();
     alert("O inverno chegou!");
 }
 
+//menu das casas
 function mudarTexto(texto) {
     document.getElementById("textoMenu").innerHTML = texto;
 
@@ -33,6 +36,7 @@ function mudarTexto(texto) {
     }
 }
 
+//consumo de API
 var urls = [
   { texto: "Robert Baratheon", urlId: '34', elementId: 'robertBaratheon' },
   { texto: "Stannis Baratheon", urlId: '18', elementId: 'stannisBaratheon' }
