@@ -1,11 +1,12 @@
 body {
-    background-color: rgb(44, 43, 43);
+    background-color: rgb(15, 15, 15);
 }
 
-p{
+p {
     font-family: "Bold 700 Italic" cursive;
-    color:rgb(245, 244, 244) 
+    color: rgb(245, 244, 244)
 }
+
 .linha img {
     float: center;
 }
@@ -15,16 +16,18 @@ p{
     text-align: center;
     margin: 0;
     color: white;
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     font-family: 'UnifrakturCook', cursive;
     font-size: 50px;
 }
+
 #titulo img {
     margin-top: 30px;
     margin-right: 50px;
     margin-left: 50;
     float: right;
 }
+
 #titulo p {
     text-align: ;
     margin-right: 200;
@@ -32,41 +35,44 @@ p{
     margin-top: 100;
     margin-left: 200px;
     color: #f5f0f0;
-    font-size: 60px;
-    }
-    #apresentacao img {
-        float: right;
-        margin-left: 40px;
-        margin-right: 0;
-        margin-bottom: 30px;
-        margin-top: 0;
-}
-    
-#apresentacao p {
-        text-align: left;
-        width: auto;
-        padding:0;
-        font-size: 20px;
-        margin-right: 100px;
-        margin-bottom: 20px;
-        margin-top: 0;
-        margin-left: 0;
-        color: #FFFF;
-}
-.nome{
-    text-align: center;
-    font-size:40px;
-}
-.bio {
-    font-size: 20px;    
+    font-size: 70px;
 }
 
-#menu img{
+#apresentacao img {
+    float: right;
+    margin-left: 40px;
+    margin-right: 0;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+#apresentacao p {
+    text-align: left;
+    width: auto;
+    padding: 0;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-left: 0;
+    color: #FFFF;
+}
+
+.nome {
+    text-align: center;
+    font-size: 40px;
+}
+
+.bio {
+    font-size: 20px;
+}
+
+#menu img {
     float: center;
 }
 
 #menu {
- text-align: left;
- font-size: 80px;
- background-color: black;
+    text-align: left;
+    font-size: 80px;
+    background-color: rgb(240, 231, 231);
 }
